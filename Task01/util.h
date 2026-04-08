@@ -1,4 +1,4 @@
-#include "util.h"
+#include "logic.h"
 
 
 void print(string s) {

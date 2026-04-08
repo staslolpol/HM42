@@ -8,9 +8,14 @@ int main() {
 	cout << "Input size: ";
 	cin >> size;
 
-	init_rnd(array, size, 0, 10);
+	init_rnd(array, size, -10, 10);
 
+	for (int i = 0; i < size; i++)
+	{
+		cout << array[i] << " ";
+	}
 
+	cout << "\n" << quantity(array, size);
 
 	return 0; 
 }
