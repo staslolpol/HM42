@@ -3,7 +3,7 @@
 bool ordered_vector(int array[], int length) {
 	bool result = true;
 
-	for (int i = 0; i < length; i++)
+	for (int i = 1; i < length; i++)
 	{
 		if (array[i] < array[i - 1]) {
 			result = false;
